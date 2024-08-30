@@ -1,0 +1,21 @@
+{
+  "name": "bienes-raices-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node app.js",
+    "dev": "nodemon app.js"
+
+  },
+  "keywords": [],
+  "author": "Adriana Clemente",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

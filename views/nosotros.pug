@@ -1,0 +1,27 @@
+extends ./layout/index
+block contenido 
+    main(class="container mx-auto")
+        .grid.grid-cols-2.gap-8
+            .flex.items-center.justify-center.w-full.mt-8
+                img.w-96.h-full.object-cover(src="img/nosotros.jpg" alt="Imagen sobre nosotros")
+            .w-full.mt-8
+                p= pagina
+                blockquote.text-justify.mb-4 En Agencia de Viajes, nuestra misión es hacer de cada viaje una experiencia única e inolvidable. Nos apasiona conectar a las personas con lugares extraordinarios, brindándoles la oportunidad de descubrir nuevas culturas, paisajes y experiencias. Cada detalle de nuestros itinerarios está cuidadosamente planeado para ofrecer comodidad, aventura y momentos que serán recordados por siempre.
+
+                p.text-justify.mb-4 Contamos con un equipo comprometido, compuesto por expertos en viajes que conocen de primera mano la importancia de una planificación bien estructurada. Sabemos que cada viajero es diferente, por lo que nos esforzamos en personalizar cada destino según tus necesidades y deseos, garantizando que tu experiencia sea tan única como tú.
+
+                p.text-justify.mb-4 Nuestro objetivo es que te sientas acompañado en cada etapa de tu viaje, desde la planificación inicial hasta el momento en que regreses a casa con recuerdos inolvidables. Creemos que viajar no solo es una forma de escapar, sino una manera de conectar con el mundo, y estamos aquí para hacer de tu próxima aventura un sueño hecho realidad.
+        .container.mx-auto.mt-2.py-2.text-justify
+            .grid.grid-cols-3.gap-8
+                .w-full
+                    img.h-24.w-24.object-contain.mx-auto.block(src="/img/icono_seguridad.svg", alt="alt")
+                    h1.mb-2 Seguridad 
+                    p Trabajamos únicamente con proveedores de confianza y seguimos estrictos protocolos para garantizar que cada aspecto de tu viaje cumpla con los más altos estándares de seguridad. Desde el transporte hasta el alojamiento, nos aseguramos de que cada detalle esté en manos de profesionales comprometidos con tu bienestar.
+                .w-full  
+                    img.h-24.w-24.object-contain.mx-auto.block(src="/img/icono_destinos.svg", alt="alt")
+                    h1.mb-2 Mejores Destinos
+                    p Ya sea que busques relajarte en playas paradisíacas, explorar ciudades vibrantes o adentrarte en la naturaleza, nuestros itinerarios están diseñados para ofrecer experiencias únicas y memorables en cada rincón del mundo.
+                .w-full
+                    img.h-24.w-24.object-contain.mx-auto.block(src="/img/icono_precios.svg", alt="alt")
+                    h1.mb-2 Mejores precios
+                    p Nuestro equipo trabaja arduamente para proporcionar la mejor relación calidad-precio sin comprometer la calidad de tu experiencia. Desde paquetes económicos hasta opciones más lujosas, tenemos algo para cada viajero

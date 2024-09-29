@@ -1,16 +1,12 @@
-.flex.flex-col.w-full.h-fit.px-48.py-6.mt-4(class='bg-[#374151] text-[#e5e7eb]')
-    .flex.flex-row
-        .flex.flex-col.gap-2.justify-center(class='w-[35%]')
-            .flex.items-center.w-full.gap-4
-                .text-3xl AGENCIA DE VIAJES
-        .flex.flex-row.justify-end.gap-16.text-nowrap(class='w-[65%]')
-            .grid.grid-cols-1.gap-0
-                .flex.flex-col.gap-2
-                    .font-bold.uppercase.pb-3(class='text-[#9ca3af]') Información
-                    a(href='/nosotros' class='hover:underline') Nosotros
-                    a(href='/viajes' class='hover:underline') Viajes
-                    a(href='/testimoniales' class='hover:underline') Testimoniales
-    .w-full.border-t.border-gray-500.my-8
-    .text-center &copy; 
-        span= actualAnio 
-        span  Adriana Clemente - Todos los derechos reservados.
+footer.container.py-5
+    .row
+        .col-md-6
+            nav.nav.footer.justify-content-center.justify-content-md-start
+                a.nav-link(href="/nosotros") Nosotros
+                a.nav-link(href="/viajes") Viajes
+                a.nav-link(href="/testimoniales") Testimoniales
+
+        .col
+            p.copyright.text-center.text-md-right
+                | Todos los Derechos Reservados 
+                span= actualYear

@@ -7,15 +7,18 @@
   "scripts": {
     "server": "node app.js",
     "dev": "nodemon app.js"
-
   },
   "keywords": [],
   "author": "Adriana Clemente",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "pug": "^3.0.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "autoprefixer": "^10.4.20",
+    "nodemon": "^3.1.4",
+    "postcss": "^8.4.41",
+    "postcss-cli": "^11.0.0"
   }
 }

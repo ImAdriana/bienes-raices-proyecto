@@ -1,7 +1,13 @@
 import express from 'express';
 import router from './routes/usuarioRoutes.js';
+import db from './config/db.js';
 
 const app = express();
+
+// Conectar la bd
+db.authenticate()
+    .then(() => console.log('Bases de datos contectada'))
+    .catch((error) => console.log(error));
 
 // Habilitar pug
 app.set('view engine', 'pug');
